@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – Balloon Blast</title>
+<meta name="description" content="Privacy Policy for Balloon Blast, an offline arcade game for Android. The game collects no personal information and works without an internet connection.">
+<meta name="robots" content="index, follow">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#4A9EF2">
+<style>
+  :root {
+    --ink: #1B3A6B;
+    --text: #2B3A55;
+    --muted: #5F7393;
+    --line: #DCE9F6;
+    --page: #F4F9FF;
+    --card: #FFFFFF;
+    --sky: #4A9EF2;
+    --sky-light: #BDE7FF;
+    --red: #E8343B;
+    --orange: #FF9F1C;
+    --yellow: #FFC83D;
+    --green: #4CC93A;
+    --blue: #2F8CFF;
+    --purple: #9B5DE5;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--page);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+  }
+  a { color: var(--blue); }
+  a:focus-visible { outline: 3px solid var(--yellow); outline-offset: 2px; }
+
+  .hero {
+    background: linear-gradient(180deg, var(--sky) 0%, var(--sky-light) 100%);
+    padding: 40px 16px 64px;
+    text-align: center;
+  }
+  .balloons { display: block; margin: 0 auto 12px; width: 150px; height: auto; }
+  .brand {
+    margin: 0;
+    font-size: clamp(30px, 7vw, 44px);
+    font-weight: 800;
+    line-height: 1.1;
+    color: var(--ink);
+    text-shadow: 0 2px 8px rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.5px;
+  }
+  .hero p { margin: 10px 0 0; color: var(--ink); font-weight: 600; }
+
+  main {
+    max-width: 760px;
+    margin: -36px auto 0;
+    padding: 0 16px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    box-shadow: 0 6px 24px rgba(27, 58, 107, 0.08);
+    padding: 28px clamp(18px, 5vw, 44px) 36px;
+  }
+  h1 { margin: 0 0 6px; font-size: clamp(26px, 5vw, 32px); color: var(--ink); line-height: 1.2; }
+  .dates { margin: 0 0 24px; color: var(--muted); font-size: 15px; }
+  .summary {
+    margin: 0 0 28px;
+    padding: 16px 18px;
+    border-radius: 14px;
+    background: #EEF7FF;
+    border-left: 6px solid var(--green);
+  }
+  .summary p { margin: 0; }
+  .facts { margin: 0 0 28px; padding: 0; list-style: none; display: grid; gap: 8px 16px; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+  .facts li { font-size: 15px; color: var(--muted); }
+  .facts strong { display: block; color: var(--ink); font-size: 15px; }
+  nav.toc { margin: 0 0 8px; }
+  nav.toc h2 { font-size: 15px; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); border: 0; padding: 0; margin: 0 0 8px; }
+  nav.toc ol { margin: 0; padding-left: 22px; columns: 2 220px; column-gap: 32px; font-size: 15px; }
+  nav.toc li { break-inside: avoid; }
+  section { scroll-margin-top: 16px; }
+  h2 {
+    margin: 34px 0 10px;
+    padding-left: 14px;
+    font-size: 21px;
+    line-height: 1.3;
+    color: var(--ink);
+    border-left: 5px solid var(--sky);
+  }
+  section:nth-of-type(5n+1) h2 { border-left-color: var(--red); }
+  section:nth-of-type(5n+2) h2 { border-left-color: var(--orange); }
+  section:nth-of-type(5n+3) h2 { border-left-color: var(--green); }
+  section:nth-of-type(5n+4) h2 { border-left-color: var(--blue); }
+  section:nth-of-type(5n+5) h2 { border-left-color: var(--purple); }
+  p { margin: 0 0 12px; }
+  ul.list { margin: 0 0 12px; padding-left: 22px; }
+  ul.list li { margin-bottom: 4px; }
+  .placeholder {
+    background: #FFF4CC;
+    border: 1px dashed #CC8A06;
+    border-radius: 6px;
+    padding: 0 5px;
+    font-weight: 700;
+    color: #7A4F00;
+    white-space: nowrap;
+  }
+  .contact { margin-top: 8px; padding: 14px 18px; background: #F7FAFE; border: 1px solid var(--line); border-radius: 14px; }
+  .contact p { margin: 0 0 4px; }
+
+  footer {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 28px 16px 40px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  footer .dots { display: inline-flex; gap: 6px; margin-bottom: 10px; }
+  footer .dots span { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+
+  @media (max-width: 480px) {
+    body { font-size: 16px; }
+    .hero { padding: 28px 16px 56px; }
+    .balloons { width: 120px; }
+  }
+  @media print {
+    .hero { background: none; padding: 0 0 16px; }
+    .brand { color: var(--ink); text-shadow: none; }
+    .balloons, nav.toc { display: none; }
+    main { margin: 0; }
+    .card { border: 0; box-shadow: none; padding: 0; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <svg class="balloons" viewBox="0 0 150 90" role="img" aria-label="Three cartoon balloons">
+    <path d="M38 62 Q36 74 40 88" fill="none" stroke="#FFFFFF" stroke-width="1.6"/>
+    <path d="M75 56 Q78 72 74 88" fill="none" stroke="#FFFFFF" stroke-width="1.6"/>
+    <path d="M112 62 Q114 74 110 88" fill="none" stroke="#FFFFFF" stroke-width="1.6"/>
+    <ellipse cx="38" cy="38" rx="20" ry="24" fill="#E8343B" stroke="#1B3A6B" stroke-width="2"/>
+    <ellipse cx="112" cy="38" rx="20" ry="24" fill="#4CC93A" stroke="#1B3A6B" stroke-width="2"/>
+    <ellipse cx="75" cy="30" rx="22" ry="26" fill="#FFC83D" stroke="#1B3A6B" stroke-width="2"/>
+    <ellipse cx="31" cy="28" rx="5" ry="7" fill="#FFFFFF" opacity="0.6"/>
+    <ellipse cx="67" cy="19" rx="6" ry="8" fill="#FFFFFF" opacity="0.6"/>
+    <ellipse cx="105" cy="28" rx="5" ry="7" fill="#FFFFFF" opacity="0.6"/>
+  </svg>
+  <p class="brand">Balloon Blast</p>
+  <p>Pop It. Score It. Beat Every Stage!</p>
+</header>
+
+<main>
+  <article class="card">
+    <h1>Privacy Policy</h1>
+    <p class="dates">Effective date: <time datetime="2026-11-06">6 November 2026</time> · Last updated: <time datetime="2026-11-06">6 November 2026</time></p>
+
+    <div class="summary">
+      <p><strong>In short:</strong> Balloon Blast works offline. It does not collect, send or share any personal information. Your scores, progress and settings stay on your own device.</p>
+    </div>
+
+    <ul class="facts">
+      <li><strong>App</strong>Balloon Blast (Android)</li>
+      <li><strong>Package ID</strong>com.mts.balloonblast</li>
+      <li><strong>Developer / publisher</strong>MTS Infotech</li>
+    </ul>
+
+    <nav class="toc" aria-label="Contents">
+      <h2>Contents</h2>
+      <ol>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#collect">Information we collect</a></li>
+        <li><a href="#device">Information stored on your device</a></li>
+        <li><a href="#network">Internet and network access</a></li>
+        <li><a href="#ads">Advertising and analytics</a></li>
+        <li><a href="#third-party">Third-party services</a></li>
+        <li><a href="#permissions">Permissions</a></li>
+        <li><a href="#security">Data security and retention</a></li>
+        <li><a href="#children">Children's privacy</a></li>
+        <li><a href="#changes">Changes to this policy</a></li>
+        <li><a href="#contact">Contact us</a></li>
+      </ol>
+    </nav>
+
+    <section id="introduction">
+      <h2>1. Introduction</h2>
+      <p>Balloon Blast is an offline arcade game for Android, published by MTS Infotech ("we", "us"). We respect your privacy. This policy explains what information the game handles and how.</p>
+      <p>This policy applies to the Balloon Blast app with the package ID <code>com.mts.balloonblast</code>.</p>
+    </section>
+
+    <section id="collect">
+      <h2>2. Information we collect</h2>
+      <p>Balloon Blast does not collect any information about you. In particular, the game does not collect:</p>
+      <ul class="list">
+        <li>personal information such as your name, email address or phone number;</li>
+        <li>device identifiers or advertising IDs;</li>
+        <li>location information;</li>
+        <li>usage statistics, analytics or crash reports;</li>
+        <li>any other information about you or your device.</li>
+      </ul>
+      <p>The game has no accounts, no sign-in and no online features.</p>
+    </section>
+
+    <section id="device">
+      <h2>3. Information stored on your device</h2>
+      <p>So that your progress is still there the next time you play, the game saves the following information on your device:</p>
+      <ul class="list">
+        <li>your best scores in the Classic and Time Challenge modes;</li>
+        <li>your overall best score;</li>
+        <li>which stages you have unlocked;</li>
+        <li>your best score and star rating for each stage;</li>
+        <li>your Sound, Music and Vibration settings.</li>
+      </ul>
+      <p>This information is kept in the app's private storage on your device, where other apps cannot read it. It is never sent to us or to any external server. The game also keeps a technical graphics cache on your device to start faster; it contains no information about you.</p>
+    </section>
+
+    <section id="network">
+      <h2>4. Internet and network access</h2>
+      <p>Balloon Blast does not need an internet connection. The app does not request internet access from Android and does not communicate with any external server. You can play the whole game offline.</p>
+    </section>
+
+    <section id="ads">
+      <h2>5. Advertising and analytics</h2>
+      <p>The current version of Balloon Blast contains no advertisements, no advertising SDKs, no analytics SDKs and no tracking services. It contains no in-app purchases.</p>
+    </section>
+
+    <section id="third-party">
+      <h2>6. Third-party services</h2>
+      <p>Balloon Blast does not integrate any third-party services that collect or share user information. The game is built with the Godot game engine and standard Android system libraries, which run entirely on your device and do not send information anywhere.</p>
+      <p>The game uses Google Play's in-app review feature, which may occasionally offer you to rate the game on Google Play without leaving it. If you rate or review, that is handled by Google Play under Google's privacy policy; the game itself never sees your rating or any information about you.</p>
+      <p>If you download Balloon Blast from Google Play, your use of Google Play is covered by Google's own privacy policy.</p>
+    </section>
+
+    <section id="permissions">
+      <h2>7. Permissions</h2>
+      <p>Balloon Blast requests only one Android permission:</p>
+      <ul class="list">
+        <li><strong>Vibration</strong> (<code>android.permission.VIBRATE</code>): for short, optional vibrations during gameplay, for example when a bomb is hit. You can turn vibration off at any time in the game's Settings.</li>
+      </ul>
+      <p>The game does not request access to the internet, your location, camera, microphone, contacts, files or any other personal data.</p>
+    </section>
+
+    <section id="security">
+      <h2>8. Data security and retention</h2>
+      <p>Your game progress and settings stay on your device and are never transmitted. Android's cloud backup is turned off for Balloon Blast, so this information is not copied to backup services.</p>
+      <p>You can delete it at any time: uninstalling the game removes all of its locally stored data, and you can also clear it from Android's settings (Settings → Apps → Balloon Blast → Storage → Clear data).</p>
+    </section>
+
+    <section id="children">
+      <h2>9. Children's privacy</h2>
+      <p>Balloon Blast does not collect personal information from anyone who plays it, including children. Because the game collects no personal information, it has no personal information about children to store, use or share.</p>
+    </section>
+
+    <section id="changes">
+      <h2>10. Changes to this Privacy Policy</h2>
+      <p>We may update this policy if the game's features or privacy practices change. Any updated policy will be published at this same web address, with a new "Last updated" date at the top of the page.</p>
+    </section>
+
+    <section id="contact">
+      <h2>11. Contact us</h2>
+      <p>If you have any questions about this Privacy Policy, please contact us:</p>
+      <div class="contact">
+        <p><strong>Developer / publisher:</strong> MTS Infotech</p>
+        <p><strong>Email:</strong> <a href="mailto:infinium.android@gmail.com">infinium.android@gmail.com</a></p>
+      </div>
+    </section>
+  </article>
+</main>
+
+<footer>
+  <div class="dots" aria-hidden="true">
+    <span style="background:#E8343B"></span><span style="background:#FF9F1C"></span><span style="background:#FFC83D"></span><span style="background:#4CC93A"></span><span style="background:#2F8CFF"></span><span style="background:#9B5DE5"></span>
+  </div>
+  <p>Balloon Blast · © 2026 MTS Infotech. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
